@@ -80,7 +80,7 @@ def qa(question, context):
     print(content)
 
 ########## DEMO: Întrebarea utilizatorului ################
-query = "By what percentage did China economy expand in 2004?"
+query = "How much NVIDIA stock gain in 2004?"
 
 # Găsește cele mai relevante documente
 indices = search_document(query)
